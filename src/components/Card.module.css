@@ -1,0 +1,33 @@
+.card{
+    overflow: hidden;
+    border-radius: 20px;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    transition: .3s;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.card:hover{
+    background-color: #eee;
+}
+.card img{
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+.card__author{
+    color: #63afca;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.card__title{
+    font-size: 24px;
+    margin: 5px 0;
+}
+.card__description{
+    color: #777;
+    font-size: 20px;
+}
