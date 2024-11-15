@@ -133,9 +133,9 @@ const newsList = [
         "body": "Мик Джаггер, вокалист легендарной рок-группы The Rolling Stones, презентовал свою автобиографию. В книге он делится личными воспоминаниями и рассказывает о многолетнем пути в музыке и жизни."
     }
 ]
-// .map(value => ({ value, sort: Math.random() }))
-//     .sort((a, b) => a.sort - b.sort)
-//     .map(({ value }) => value)
+.map(value => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value)
 
 const newsCount = {
     carousel: 3,
